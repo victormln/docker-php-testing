@@ -2,11 +2,11 @@
 
 # Introduction
 
-Template repository to have PHP 8.1 + Xdebug + Testing tools (PHPUnit + Infection)
+Template repository to have PHP + Xdebug + Testing tools (PHPUnit + Infection)
 
 ## What is in this template
 
-- PHP-fpm 8.1
+- PHP-fpm
 - php.ini prepared to be edited by your own
 - Composer
 - Makefile
