@@ -1,3 +1,5 @@
+![PHP Version](https://img.shields.io/packagist/php-v/victormln/docker-php-testing)
+
 # Introduction
 
 Template repository to have PHP 8.1 + Xdebug + Testing tools (PHPUnit + Infection)
