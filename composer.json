@@ -1,0 +1,28 @@
+{
+  "name": "victormln/docker-php-testing",
+  "type": "template",
+  "description": "A project template to have PHP 8.1 and testing tools (PHPUnit + Infection)",
+  "keywords": ["template"],
+  "homepage": "https://victormln.gitlab.io",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Víctor Molina",
+      "email": "victor.molinaf@gmail.com",
+      "homepage": "https://victormln.gitlab.io"
+    }
+  ],
+  "autoload":{
+    "psr-4":{
+      "Victormln\\DockerPHPTesting\\":"src/"
+    }
+  },
+  "autoload-dev":{
+    "psr-4":{
+      "Victormln\\DockerPHPTesting\\Tests\\":"tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
