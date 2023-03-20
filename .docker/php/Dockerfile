@@ -1,4 +1,4 @@
-FROM php:8.1-fpm
+FROM php:8.2-fpm
 
 RUN apt-get update && \
     apt-get -y install --no-install-recommends curl gnupg gnupg2 git wget curl libpng-dev libjpeg62-turbo-dev net-tools \

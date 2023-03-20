@@ -19,9 +19,7 @@ Template repository to have PHP + Xdebug + Testing tools (PHPUnit + Infection)
 1. From composer
 
 ```shell
-$ composer create-project victormln/docker-php-testing your-project 
-# Or specify PHP version with: 
-# composer create-project victormln/docker-php-testing your-project "8.1"
+$ composer create-project victormln/docker-php-testing your-project
 ```
 
 OR with git:
