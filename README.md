@@ -26,22 +26,17 @@ OR with git:
 
 ```shell
 $ git clone https://github.com/victormln/docker-php-testing.git your-project
-```
-
-2. Install repository
-
-```shell
 $ cd your-project
 $ make install
 ```
 
-3. Execute PHPUnit:
+2. Execute PHPUnit:
 
 ```shell
 $ make test
 ```
 
-4. Execute Infection:
+3. Execute Infection:
 
 ```shell
 $ make infection
